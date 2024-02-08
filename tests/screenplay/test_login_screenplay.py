@@ -1,6 +1,6 @@
 import pytest
 
-from screenplay import Actor
+from screenplay.actor import Actor
 from screenplay.tasks.login_task import LoginTask, LoginWithInvalidPassword, LoginWithInvalidUsername
 from screenplay.tasks.navigation_task import NavigateToLoginPage
 

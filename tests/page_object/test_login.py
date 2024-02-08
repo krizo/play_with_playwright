@@ -1,5 +1,5 @@
 import pytest
-from pages.login_page import LoginPage
+from page_objects.login_page import LoginPage
 
 
 @pytest.fixture
