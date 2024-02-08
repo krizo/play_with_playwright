@@ -3,11 +3,6 @@ from pages.login_page import LoginPage
 
 
 @pytest.fixture
-def search_string():
-    return 'Tyrese Haliburton'
-
-
-@pytest.fixture
 def login_credentials() -> tuple:
     return "student", "Password123"
 
