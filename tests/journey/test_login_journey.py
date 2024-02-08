@@ -1,6 +1,6 @@
 import pytest
 
-from journey_steps.LoginJourney import LoginJourney
+from journey.LoginJourney import LoginJourney
 
 
 @pytest.fixture

@@ -1,6 +1,6 @@
-from playwright.sync_api import Browser, Page, expect
+from playwright.sync_api import Page, expect
 
-from pages.base_page import BasePage
+from page_objects.base_page import BasePage
 
 
 class LoginPage(BasePage):

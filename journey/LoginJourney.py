@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 
-from journey_steps.journey_base import JourneyBase
-from pages.login_page import LoginPage
+from journey.journey_base import JourneyBase
+from page_objects.login_page import LoginPage
 
 
 class LoginJourney(JourneyBase):

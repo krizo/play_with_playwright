@@ -1,6 +1,6 @@
 from screenplay.actor import Actor
 from screenplay.tasks.base_task import BaseTask
-from pages.login_page import LoginPage
+from page_objects.login_page import LoginPage
 
 
 class LoginTask(BaseTask):
